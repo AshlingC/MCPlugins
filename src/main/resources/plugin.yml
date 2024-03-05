@@ -1,0 +1,13 @@
+
+name: BossBars
+version: 1.0
+main: org.ashling.bossbars.BossBars
+description: Displays custom messages using boss bars and allows them to be cleared.
+api-version: '1.20'
+commands:
+  bossbar:
+    description: Displays a message using a boss bar.
+    usage: /<command> <message>
+  bossbarstop:
+    description: Stops and clears the current boss bar message.
+    usage: /<command>
